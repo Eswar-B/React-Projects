@@ -1,0 +1,31 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+table{
+  margin-top: 3rem;
+  max-width: 350px;
+}
+
+table td{
+  border: 2px solid grey;
+  width: 100px;
+  height: 100px;
+  
+}
+td{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  margin: 3px;
+}
+.win{
+  color: red;
+  font-weight: 800;
+  margin-top: 3px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
